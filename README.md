@@ -1,6 +1,8 @@
 # CMODA7-fpga-pb_led
 CMOD A7 FPGA push button, led lights, release button turns the led off.
 
+original code is from https://digilent.com/reference/learn/software/tutorials/verilog-project-2/start
+
 ## Prerequisites
 
 * Vivado correctly installed
@@ -53,9 +55,8 @@ CMOD A7 FPGA push button, led lights, release button turns the led off.
 * There are 3 LEDs: LD0, LD1 and LD2
   * LD0 is a tri-color led and should be lit (blue)
   * LD1 and LD2 are off
-* click BTN0 => LD1 should turn on
-  * LD0 should stay lit (blue) and LD2 be off
-* click BTN0 => LD1 should turn off
+* press BTN0 => LD1 should turn on
+* release BTN0 => LD1 should turn off
   * LD0 should stay lit (blue) and LD2 be off
      
   
